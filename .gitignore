@@ -1,0 +1,25 @@
+# 🔒 Entorno virtual
+.venv/
+
+# 🐍 Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🧠 Modelos y escaladores (opcional ignorarlos si ya están versionados)
+# *.pkl
+# *.json
+
+# 💾 Datos (CSV)
+*.csv
+!sorteos_unificado.csv  # <-- este sí se mantiene
+
+# 💻 Configuraciones locales y editores
+.DS_Store
+Thumbs.db
+.vscode/
+
+# 📦 Otros logs o backups
+*.log
+*.bak
